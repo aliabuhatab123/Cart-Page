@@ -3,7 +3,7 @@
   "homepage": "https://aliabuhatab123.github.io/Cart-Page",
   "version": "1.0.0",
   "description": "shopping cart project with tests",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "jest",
     "start": "live-server --port=3000 src"
