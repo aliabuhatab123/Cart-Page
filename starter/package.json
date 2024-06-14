@@ -8,6 +8,14 @@
     "test": "jest",
     "start": "live-server --port=3000 src"
   },
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
   "author": "",
   "license": "SEE LICENSE IN LICENSE.md",
   "dependencies": {
